@@ -24,7 +24,8 @@ namespace persona.Negocio
             return "la persona" + persona.Nombre + "de edad" + persona.Edad + "se esta riendo:" + persona.Reir;
 
         }
-        
+
+
         public String caminar(Clspersona persona)
         {
             persona.Caminar = "si";
@@ -34,11 +35,11 @@ namespace persona.Negocio
 
         }
 
-        public String Ablar(Clspersona persona)
+        public String ablando(Clspersona persona)
         {
             persona.Nombre = "Martin";
 
-            return "la persona " + persona.Nombre + "esta ablando";
+            return "la persona " + persona.Nombre + " esta ablando ";
 
         }
 
